@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main Content Area (above the nav bar) -->
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_above="@+id/bottomNavBar">
+
+        <!-- Add Spinner for Currency Selection -->
+        <Spinner
+            android:id="@+id/spinnerCurrency"
+            android:layout_width="153dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvTotall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_rs_0_0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAddTransactionn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8DFFC107"
+            android:text="@string/add_transaction" />
+
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8DFFC107"
+            android:text="@string/download_transactions" />
+
+        <Button
+            android:id="@+id/btnRestore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8DFFC107"
+            android:text="@string/restore_backup" />
+
+        <Button
+            android:id="@+id/btnSetBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8DFFC107"
+            android:text="@string/set_monthly_budget" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerVieww"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <include
+        android:id="@+id/bottomNavBar"
+        layout="@layout/custom_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

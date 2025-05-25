@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Labexam3</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="save">Save</string>
+    <string name="category_totals">Category Totals</string>
+    <string name="category_totals_will_appear_here">Category Totals will appear here</string>
+    <string name="this_is_a_visual_representation_of_each_expense">This is a visual representation of each expense.</string>
+    <string name="trackingmaster">TrackingMaster</string>
+    <string name="your_personal_finance_assistant">Your Personal Finance Assistant</string>
+    <string name="easy_navigation_to_track_your_budget">Easy Navigation to track your budget</string>
+    <string name="skip">Skip</string>
+    <string name="moneytracker_is_well_structured_app_with_having_easy_navigaton_system_and_simple">MoneyTracker is well structured app with having easy navigaton system and simple</string>
+    <string name="welcome">Welcome</string>
+    <string name="start">Start</string>
+    <string name="total_rs_0_0">Total: Rs. 0.0</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="download_transactions">Download Transactions</string>
+    <string name="restore_backup">Restore Backup</string>
+    <string name="set_monthly_budget">Set Monthly Budget</string>
+    <string name="restore_your_backup_file_txt_or_json">Restore your backup file (.txt or .json)</string>
+    <string name="select_backup_file">Select Backup File</string>
+    <string name="enter_monthly_budget">Enter monthly budget</string>
+    <string name="save_budget">Save Budget</string>
+    <string name="titlenew">Title</string>
+    <string name="amount1">Amount</string>
+    <string name="category">Category</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="home">Home</string>
+    <string name="add">Add</string>
+    <string name="set_budget">Set Budget</string>
+</resources>

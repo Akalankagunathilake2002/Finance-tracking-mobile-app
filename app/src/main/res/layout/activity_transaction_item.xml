@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#F9F9F9"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:layout_gravity="center"
+    android:backgroundTint="#FFFFFF"
+    android:radius="8dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titlenew"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <!-- Amount -->
+    <TextView
+        android:id="@+id/tvItema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amount1"
+        android:textColor="#388E3C"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <!-- Category -->
+    <TextView
+        android:id="@+id/tvIte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:textColor="#1976D2"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="12dp">
+
+
+        <ImageView
+            android:id="@+id/ivEdit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:contentDescription="@string/edit"
+            android:layout_marginEnd="12dp"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:elevation="4dp"
+            android:scaleType="centerInside"/>
+
+
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="@string/delete"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:elevation="4dp"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+</LinearLayout>

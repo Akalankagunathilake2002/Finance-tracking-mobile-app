@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNavBar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#222222"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <!-- Home -->
+    <ImageView
+        android:id="@+id/homeIcon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@drawable/home"
+        android:contentDescription="@string/home" />
+
+    <!-- Add -->
+    <ImageView
+        android:id="@+id/addIcon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@drawable/baseline_add_circle_outline_24"
+        android:contentDescription="@string/add" />
+
+    <!-- Set Budget -->
+    <ImageView
+        android:id="@+id/budgetIcon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@drawable/baseline_account_balance_24"
+        android:contentDescription="@string/set_budget" />
+
+</LinearLayout>
